@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_menu_more"
+        android:showAsAction="always"
+        android:title="更多"/>
+</menu>
+<!-- From: file:/Users/yangyongxin/android/projects/Project/茶百科/src/main/res/menu/menu_home.xml -->

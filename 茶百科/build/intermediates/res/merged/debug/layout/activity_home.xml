@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yyx.teawiki.view.tabindicator.SlidingTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_class"/>
+    <android.support.v4.view.ViewPager
+        android:paddingTop="5dp"
+        android:id="@+id/vp_frag_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
+<!-- From: file:/Users/yangyongxin/android/projects/Project/茶百科/src/main/res/layout/activity_home.xml -->
